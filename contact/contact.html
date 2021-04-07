@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE-edge">
+	<meta name="view-port" content="width=device-width initial-scale=1">
+	<title>SAP</title>
+	<link rel="stylesheet" type="text/css" href="../css/custom1.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<style type="text/css">
+    	.select_color{
+    		color: #555;
+    	}
+    	.text_rg{
+    		font-size: 12px;
+    		line-height: 16px;
+    		margin-left: -15px;
+    	}
+    	label.error {
+	      	color: red;
+	      	margin-top: 5px;
+	      	font-size: 11px;
+	   	}
+	   	.textarea_font{
+    		font-size: 12px;
+    	}
+    </style>
+   
+</head>
+<body style="line-height: 1; font-family: 'BentonSans-Regular'; background-color: #DADADC;">
+	<div class="container-fluid navbar-fixed-top" style="background:#000000;padding: 15px 0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<a href="#" target="blank"><img src="images/2.png"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid home-banner" style="padding-top: 50px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12" >
+					<div class="banner-head">SAP Champion Award</div>
+		        	<div class="banner-head-sub">India FKOM 2020</div>
+		        	<div class="banner-head-text">7-8th February, 2020</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 mar-t-40">
+					<div class="row">
+						<form  id="registration"  method="post">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="empid" id="empid" class="form-control" placeholder="* Employee ID">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="manager" id="manager" class="form-control" placeholder="* Reporting-manager">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="fname" id="fname" class="form-control" placeholder="* FIrst name">
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<input type="text" name="lname" id="lname" class="form-control" placeholder="* Last name">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<select class="form-control" name="category" id="category">
+										   	<option value>* Category of award</option>
+										   	<option value="Tell it like it is">Tell it like it is</option>
+										    <option value="Stay Curious">Stay Curious</option>
+										    <option value="Embrace Difference">Embrace Difference</option>
+										    <option value="Keep the Promise">Keep the Promise</option>
+										    <option value="Build Bridges, not Silos">Build Bridges, not Silos</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+										<textarea class="form-control textarea_font" rows="3" id="justification" name="justification" placeholder="* Business justification" style="font-size: 14px;"></textarea>
+									</div>
+								</div>
+							</div>
+							<!-- <div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="form-group">
+									
+                                       <input type="file" name="image" id="image" class="form-control">
+		    						</div>
+		    					</div>
+    						</div> -->
+							<div class="row mar-t-30">
+								<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+									<button type="submit" class="submit-btn">Submit</button> 
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid hidden-xs mar-t-40" style="background-color:#E9E9E9;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 co-sm-12 col-xs-12" align="right">
+					<ul class="footer_ul text-left pad-t-10 pad-b-5 pad-l-0">
+						<li>
+							<a target="_blank" href="http://www.sap.com/about/legal/privacy.html">Privacy</a>
+						</li>
+						<li>
+							<a target="_blank" href="http://www.sap.com/corporate/en/legal/terms-of-use.html">Terms of Use</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.sap.com/about/legal/impressum.html">Legal Disclosure</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.sap.com/about/legal/copyright.html">Copyright</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

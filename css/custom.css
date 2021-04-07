@@ -1,0 +1,75 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.home-banner{
+	background: url(../agent/imgs.jpg) no-repeat center center;
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 250px;
+    margin-top: 45px;
+    width: 100%;
+}
+.banner-head {
+    top: 20%;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+.banner-head-sub {
+	font-weight: normal !important;
+    font-style: normal;
+    font-family: "BentonSans-Regular" !important;
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+.banner-head-text {
+	font-weight: normal !important;
+    font-style: normal;
+    font-family: "BentonSans-Regular" !important;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+.submit-btn{
+	color: #ffffff;
+    display: inline-block;
+    padding: 10px 50px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.42857;
+    text-align: center;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    background: #008fd3 none repeat scroll 0% 0% !important;
+    text-decoration: none;
+}
+.mar-t-40 {
+    margin-top: 40px !important;
+}
+.footer_ul {
+    list-style: outside none none;
+    display: inline-flex;
+    font-size: 12px;
+}
+.footer_ul li {
+    margin-right: 30px;
+    float: left;
+}
+.footer_ul li a, .footer_ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 20px;
+}
